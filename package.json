@@ -1,0 +1,22 @@
+{
+  "name": "primeiro-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/support/steps"
+  }
+}
